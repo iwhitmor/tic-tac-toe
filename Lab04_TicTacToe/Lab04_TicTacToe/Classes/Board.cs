@@ -16,7 +16,9 @@ namespace Lab04_TicTacToe.Classes
 			{"7", "8", "9"},
 		};
 
-
+		/// <summary>
+        /// 2 loops to loop through the gameboard and display properly to user
+        /// </summary>
 		public void DisplayBoard()
 		{
 			//TODO: Output the board to the console
@@ -28,7 +30,6 @@ namespace Lab04_TicTacToe.Classes
 					string gb = GameBoard[col, row];
 					Console.Write($"|{gb}|");
 				}
-				Console.WriteLine();
 				Console.WriteLine();
 			}		
 		}
