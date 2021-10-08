@@ -17,7 +17,7 @@ namespace Lab04_TicTacToe.Classes
 		};
 
 		/// <summary>
-        /// 2 loops to loop through the gameboard and display properly to user
+        /// 2 loops to loop through the gameboard and display properly to user. This is being called in the program.cs in the main()
         /// </summary>
 		public void DisplayBoard()
 		{
