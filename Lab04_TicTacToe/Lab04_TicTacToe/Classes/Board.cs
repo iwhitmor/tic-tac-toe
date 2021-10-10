@@ -25,7 +25,7 @@ namespace Lab04_TicTacToe.Classes
 
 			for (int col = 0; col < GameBoard.GetLength(0); col++)
             {
-				for (int row = 0; row < GameBoard.GetLength(1); row++)
+				for (int row = 0; row < GameBoard.GetLength(0); row++)
                 {
 					string gb = GameBoard[col, row];
 					Console.Write($"|{gb}|");
