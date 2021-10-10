@@ -47,6 +47,11 @@ namespace Lab04_TicTacToe.Classes
 
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
+
+			Board.DisplayBoard();
+
+
+
 			return PlayerOne;
 		}
 

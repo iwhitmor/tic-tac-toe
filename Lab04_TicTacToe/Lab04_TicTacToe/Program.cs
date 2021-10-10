@@ -11,7 +11,6 @@ namespace Lab04_TicTacToe
 
 
             StartGame();
-            board.DisplayBoard();
         }
 
         static void StartGame()
@@ -21,7 +20,9 @@ namespace Lab04_TicTacToe
             
             Player p1 = new Player();
             Player p2 = new Player();
-            Game Game = new Game(p1, p2);
+            Game game = new Game(p1, p2);
+
+            game.Play();
         }
     }
 }
