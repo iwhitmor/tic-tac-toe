@@ -19,11 +19,9 @@ namespace Lab04_TicTacToe
             // TODO: Setup your game. Create a new method that creates your players and instantiates the game class. Call that method in your Main method.
             // You are requesting a Winner to be returned, Determine who the winner is output the celebratory message to the correct player. If it's a draw, tell them that there is no winner.
             
-            Player P1 = new Player();
-            Player P2 = new Player();
-            Game Game = new Game(P1, P2);
+            Player p1 = new Player();
+            Player p2 = new Player();
+            Game Game = new Game(p1, p2);
         }
-
-
     }
 }
