@@ -32,7 +32,6 @@ namespace Lab04_TicTacToe.Classes
 				}
 				Console.WriteLine();
 			}
-
 		}
 	}
 }
