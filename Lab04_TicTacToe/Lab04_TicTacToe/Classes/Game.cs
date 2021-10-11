@@ -57,6 +57,7 @@ namespace Lab04_TicTacToe.Classes
 				newPlayer.TakeTurn(Board);
 				SwitchPlayer();
 				Board.DisplayBoard();
+				CheckForWinner(Board);
 				}
 
 			return PlayerOne;
