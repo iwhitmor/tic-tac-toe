@@ -38,7 +38,15 @@ namespace Lab04_TicTacToe
             game.Board.DisplayBoard();
 
             Player winner = game.Play();
-            Console.WriteLine($"Congrats {winner.Name}"); 
+
+            if (winner == null){
+
+                Console.WriteLine("Tie game, play again");
+            }
+
+            else
+
+                Console.WriteLine($"Congrats {winner.Name}"); 
         }
     }
 }
