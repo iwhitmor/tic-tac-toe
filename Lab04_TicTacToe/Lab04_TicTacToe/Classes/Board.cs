@@ -31,7 +31,8 @@ namespace Lab04_TicTacToe.Classes
 					Console.Write($"|{gb}|");
 				}
 				Console.WriteLine();
-			}		
+			}
+
 		}
 	}
 }

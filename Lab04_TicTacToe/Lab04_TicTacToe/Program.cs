@@ -19,8 +19,16 @@ namespace Lab04_TicTacToe
             // You are requesting a Winner to be returned, Determine who the winner is output the celebratory message to the correct player. If it's a draw, tell them that there is no winner.
             
             Player p1 = new Player();
+            p1.Marker = "X";
+            p1.Name = "Bob";
+            p1.IsTurn = true;
+
             Player p2 = new Player();
+            p2.Marker = "O";
+            p2.Name = "Tom";
             Game game = new Game(p1, p2);
+
+            game.Board.DisplayBoard();
 
             game.Play();
         }
