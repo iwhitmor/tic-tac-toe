@@ -48,11 +48,15 @@ namespace Lab04_TicTacToe.Classes
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
 
-			Player newPlayer = NextPlayer();
-
-			newPlayer.TakeTurn(Board);
+			
 
 
+			for (int i = 0; i < 9; i++)
+				{
+				Player newPlayer = NextPlayer();
+				newPlayer.TakeTurn(Board);
+				SwitchPlayer();
+				}
 
 			return PlayerOne;
 		}
