@@ -48,19 +48,23 @@ namespace Lab04_TicTacToe.Classes
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
 
-			
+
 
 
 			for (int i = 0; i < 9; i++)
-				{
+			{
 				Player newPlayer = NextPlayer();
 				newPlayer.TakeTurn(Board);
 				SwitchPlayer();
 				Board.DisplayBoard();
-				CheckForWinner(Board);
-				}
+				if (CheckForWinner(Board))
+					{
+					return newPlayer;
+					Console.WriteLine("Congrats!");
+					};
 
-			return PlayerOne;
+			}
+			return null;
 		}
 
 
@@ -99,7 +103,10 @@ namespace Lab04_TicTacToe.Classes
 				// TODO:  Determine a winner has been reached. 
 				// return true if a winner has been reached. 
 
-
+					if (a == b && b == c)
+                    {
+						return true;
+                    }
 			}
 
 			return false;
