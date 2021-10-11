@@ -60,7 +60,6 @@ namespace Lab04_TicTacToe.Classes
 				if (CheckForWinner(Board))
 					{
 					return newPlayer;
-					Console.WriteLine("Congrats!");
 					};
 
 			}
