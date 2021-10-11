@@ -49,8 +49,7 @@ namespace Lab04_TicTacToe.Classes
              */
 
 			Board.DisplayBoard();
-
-
+			
 
 			return PlayerOne;
 		}
