@@ -56,6 +56,7 @@ namespace Lab04_TicTacToe.Classes
 				Player newPlayer = NextPlayer();
 				newPlayer.TakeTurn(Board);
 				SwitchPlayer();
+				Board.DisplayBoard();
 				}
 
 			return PlayerOne;
