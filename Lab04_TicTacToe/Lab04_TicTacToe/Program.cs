@@ -39,13 +39,13 @@ namespace Lab04_TicTacToe
 
             Player winner = game.Play();
 
-            if (winner == null){
+            if (winner == null)
+            {
 
                 Console.WriteLine("Tie game, play again");
             }
 
             else
-
                 Console.WriteLine($"Congrats {winner.Name}"); 
         }
     }
