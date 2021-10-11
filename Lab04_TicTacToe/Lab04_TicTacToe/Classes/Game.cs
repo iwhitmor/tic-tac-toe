@@ -111,7 +111,6 @@ namespace Lab04_TicTacToe.Classes
 			return false;
 		}
 
-
 		/// <summary>
 		/// Determine next player
 		/// </summary>
@@ -140,7 +139,5 @@ namespace Lab04_TicTacToe.Classes
 				PlayerTwo.IsTurn = false;
 			}
 		}
-
-
 	}
 }

@@ -9,7 +9,6 @@ namespace Lab04_TicTacToe
         {
             Board board = new Board();
 
-
             StartGame();
         }
 
@@ -23,7 +22,6 @@ namespace Lab04_TicTacToe
 
             Console.WriteLine("What is your name player two?");
             string inputName2 = Console.ReadLine();
-
 
             Player p1 = new Player();
             p1.Marker = "X";
